@@ -8,8 +8,8 @@ Git's entire repository is just **four types of objects** stored in `.git/object
 
 | Object | What it stores | Analogy |
 |--------|---------------|---------|
-| **Blob** | File **contents** (no name, no metadata) | The raw bytes of a file |
 | **Tree** | A **directory listing** (names → blobs/trees) | A folder |
+| **Blob** | File **contents** (no name, no metadata) | The raw bytes of a file |
 | **Commit** | A **snapshot pointer** + metadata | A save point |
 | **Tag** (annotated) | A **labeled pointer** with message | A signed bookmark |
 
